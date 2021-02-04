@@ -34,7 +34,7 @@ module.exports._404 = function (req, res, next) {
  * Error will be logged here too since if it reached this middleware, it means the error was not previously handled
  * By not relying on this, we also reduce the need for next function to be passed in to route handlers
  */
-module.exports._500 = function (err, _, res, _) {
+module.exports._500 = function (err, _req, res, _next) {
   // Log error either to error logs or to a logging service
   console.error(err);
 
