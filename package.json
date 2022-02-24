@@ -1,6 +1,6 @@
 {
   "name": "express-error-middlewares",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express JS generic error middlewares for HTTP 404 not found and 500 server internal error",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
